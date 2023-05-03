@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .con{
+                background-color: aquamarine;
+                color: blue;
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+        
+            }
+            @media(max-width: 700px){
+                .con{
+                    background-color: blue;
+                }
+                body{
+                    background-color: brown;
+                }
+            }
+                
+        
+        </style>
+    </head>
+    <body>
+        <div  class ="con">
+            <div class="one">one</div>
+            <div class="two">two</div>
+            <div class="three">three</div>
+
+        </div>
+    </body>
+</html>
